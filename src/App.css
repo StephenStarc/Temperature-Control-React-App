@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'stopwatch';
+  font-display: swap;
+  src: url('assets/Quartz.ttf')
+  format('truetype');
+}
+body{
+  background-color: lightpink;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-image: url('assets/sidekix-media-WgkA3CSFrjc-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: stopwatch;
+}
+.app-container{
+  background-image: url('assets/a.jpg');
+  width: 400px;
+  height: 500px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+.temperature-display-container{
+  height: 70%;
+  display: grid;
+  place-content: center;
+}
+.temperature-display{
+  border-radius: 50%;
+  color: hsl(0, 0%, 100%);
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  font-size: 62px;
+  border: 7px #fff solid ;
+  display: grid;
+  place-content: center;
+  transition: background 0.5s;
+}
+.button-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button{
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+  color: #ffffff;
+  background-image: url('assets/a.jpg');
+  /* background: rgb(105, 104, 104); */
+  border: 2px #ffffff solid;
+}
+button:hover {
+  cursor: pointer;
+  opacity: .;
+}
+
+button:focus {
+  outline: 0;
+}
+.span{
+  font-size: 35px;
+}
+.cold{
+  background-color:rgb(2, 156, 207);
+}
+.hot{
+  background-color: rgb(192, 9, 9);
+}
