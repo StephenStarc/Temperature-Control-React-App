@@ -1,5 +1,11 @@
 # React + Vite
 
+This is my first react app - This is a temperature Control App which change temp
+
+Concepts Used - Hooks (UseState) , Trenary Operator
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
